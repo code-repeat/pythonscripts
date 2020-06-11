@@ -1,5 +1,5 @@
 # Learn Python with the book Automate Boring Stuff With Python
-You can find the book online very easy. You can buy the hard book or e-book as well. If you don't have money you can download it by clicking the link below.
+
 
 ## Download Book
 Click for download it
