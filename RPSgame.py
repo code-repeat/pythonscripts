@@ -33,11 +33,13 @@ while True:
     elif p1_choice == items[1] and p2_choice == items[2]:
         print('Player 1 WINS!')
 
-    #  If player 1 choose PAPER
+    #  If player 1 choose ROCK
     elif p1_choice == items[2] and p2_choice == items[0]:
         print('Player 1 WINS')
     elif p1_choice == items[2] and p2_choice == items[1]:
         print('Player 2 WINS!')
     elif p1_choice == items[2] and p2_choice == items[2]:
         print('DRAW!')
+    else:
+        print('OPS... Something went wrong')
 
