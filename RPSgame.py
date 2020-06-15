@@ -10,12 +10,14 @@ while True:
     print("Enter player 1's choice: ")
     p1_choice = input()
 
+    #  prints 'NO CHEATING' 10 times
     for i in range(10):
         print("NO CHEATING!")
 
     print("Enter player 2's choice: ")
     p2_choice = input()
 
+    #  If player 1 choose SCISSOR
     if p1_choice == items[0] and p2_choice == items[1]:
         print('Player 1 WINS!')
     elif p1_choice == items[0] and p2_choice == items[2]:
@@ -30,6 +32,8 @@ while True:
         print('DRAW!')
     elif p1_choice == items[1] and p2_choice == items[2]:
         print('Player 1 WINS!')
+
+    #  If player 1 choose PAPER
     elif p1_choice == items[2] and p2_choice == items[0]:
         print('Player 1 WINS')
     elif p1_choice == items[2] and p2_choice == items[1]:
