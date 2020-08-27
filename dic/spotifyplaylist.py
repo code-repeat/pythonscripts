@@ -17,7 +17,7 @@ playlist = {
 #  Display the titles
 
 for tit in playlist['songs']:
-    print(f"* {tit['title']} - {tit['artist']}")
+    print(f"* {tit['title']} - {' - '.join(tit['artist'])}")
 
 #  Show total songs durations
 
